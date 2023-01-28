@@ -1,3 +1,7 @@
 import { WakaTimeApi } from "./controllers/wakatime.controller";
 
-console.log("as12");
+const wt = new WakaTimeApi(process.env.KEY);
+
+wt.getMe().then((res) => {
+  console.log("52", res);
+});

@@ -14,9 +14,15 @@
     "type": "git",
     "url": "git+https://github.com/nlesyuk/track-life.git"
   },
-  "keywords": [],
+  "keywords": [
+    "wakatime",
+    "api",
+    "client",
+    "NodeJs",
+    "TypeScript"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nlesyuk/track-life/issues"
   },
